@@ -33,3 +33,6 @@ x=3 - false
 x=15 - false
 x=5 - false
 //6
+5+true
+'2'+5
+'3'+false
