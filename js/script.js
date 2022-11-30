@@ -13,26 +13,40 @@ document.write("<p>средний уровень. 3 из 5</p>")
 
 //Homework
 //1
-Maxspeed
+var maxSpeed
+
 //2
-Day_week
+var dayWeek
+
 //3
-2+6/(1+2)
+var x = 2+6/(1+2)
+
 //4
-x=5 - true
-x=9 - true
-x=1 - true
-x=100 - false
-x=15 - false
-x=9.8 - false
+var x=5 //true
+var x=9 //true
+var x=1 //true
+var x=100 //false
+var x=15 //false
+var x=9.8 //false
+
 //5
-x=2 - true
-x=6 - true
-x=8 - true
-x=3 - false
-x=15 - false
-x=5 - false
+var x=2 //true
+var x=6 //true
+var x=8 //true
+var x=3 //false
+var x=15 //false
+var x=5 //false
 //6
-5+true
-'2'+5
-'3'+false
+var x=3
+var y=true
+x+y=2
+
+var x='1'
+var y=2
+x+y='12'
+
+var x='1'
+var y=false
+x+y='1false'
+
+
