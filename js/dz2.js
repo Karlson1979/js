@@ -5,7 +5,7 @@ else alert('Доступ до сайту закритий');
 
 //2
 var x=prompt('Введить Ваш пароль');
-if(x=='Step'||x=='Web'||x=='JavaScript')      
+if(x=='Step'||x=='Web'||x=='JavaScript');      
 alert('Підтверджено');
 else alert('Скасовано');
 
