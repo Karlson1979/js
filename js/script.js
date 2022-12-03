@@ -6,10 +6,17 @@ else alert('Доступ до сайту закритий');
 
 //2
 var x=prompt('Ведить Ваш пароль');
-var t=Step
-var y=Web;
-var z=JavaScript
-if(t,y,z)alert('Підтверджено');
+
+
+var t='Step';
+var y='Web';
+var z='JavaScript';
+
+if(x=t)alert('Підтверджено');
+if(x=y)alert('Підтверджено');
+if(x=z)alert('Підтверджено');
+
+
 else alert('Скасовано');
 
 
