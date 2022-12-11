@@ -21,5 +21,27 @@
 
 //6
 var x=+prompt('Введить цифру');
-if(true)alert(x);
-if('x') alert ('не цифра');
+
+switch(x){
+    case 0: alert('нуль');
+break;
+case 1: alert('один');
+break;
+case 2: alert('два');
+break;
+case 3: alert('три');
+break;
+case 4: alert('чотири');
+break;
+case 5: alert('пʼять');
+break;
+case 6: alert('шість');
+break;
+case 7: alert('сім');
+break;
+case 8: alert('вісім');
+break;
+case 9: alert('девʼять');
+break;
+default: alert('не цифра');
+}
