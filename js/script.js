@@ -92,12 +92,9 @@ if (l==4 && p==6 && r==1)
 else alert('ви допустили помилку в розрахунках');
 
 //10
-var now = new Date();
-var f = now.getFullYear();
-var m = now.getMonth;
-var mpo = m+1;
-var day=now.geteDate();
-var x=promt('введить день');
-var y=promt('введить місяць');
-var z=promt('введить рік');
-var res=new Date(z,y++,x);
+var x=+prompt('введить день');
+var y=+prompt('введить місяць');
+var z=+prompt('введить рік');
+var res=new Date(z, (y-1), (x+1));
+alert(res);
+
